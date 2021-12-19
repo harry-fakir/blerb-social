@@ -1,0 +1,23 @@
+Three pages; home page, about, features
+
+
+Use a layout file for header and footer so it can be the same on every page
+
+Features Page
+2 sections
+1. Blue section
+2. All features in grid system
+
+
+About Page
+1 section 
+
+Home page
+Each section on the home page should be its own component - 7 sections/components imported into the home component. (not including header and footer)
+1. Intro
+2. text with vidoe
+3. About (starts with *)
+4.FAQ
+5.Total control feature section
+6. Ideal for frainchiese and chain section
+7. Brands that love content pigoen
