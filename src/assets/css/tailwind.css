@@ -18,3 +18,21 @@
 .about-grid-cols{
     grid-template-columns: 200px 1fr;
 }
+
+
+
+@media (min-width: 1024px) {
+    .feature-arrow-left-width {
+        
+            width: 150px;
+        }
+    
+}
+
+@media (min-width: 1280px) {
+    .feature-arrow-left-width {
+        
+            width: 250px;
+        }
+    
+}
