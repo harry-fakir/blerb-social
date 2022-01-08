@@ -5,3 +5,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.h-200px{
+    height: 200px;;
+}
+
+.w-200px{
+    width: 200px;
+}
+
+.about-grid-cols{
+    grid-template-columns: 200px 1fr;
+}

@@ -1,6 +1,10 @@
 <template>
   <div class="about bg-blerb-gray w-screen h-screen">
     <section class="bg-blerb-gray py-32">
+      <div class="absolute right-0 top-24">
+        <img src="/images/about/arrow.png" alt="arrow" class="mb-8 mr-3" />
+        <img src="/images/about/vector.png" alt="vector" />
+      </div>
       <div class="max-w-7xl mx-auto px-5">
         <h1 class="text-left text-5xl mb-5 font-heading font-bold">About us</h1>
 
@@ -20,21 +24,21 @@
       </div>
 
       <div class="max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-2">
-        <div class="grid grid-cols-[200px,1fr] gap-8">
+        <div class="grid about-grid-cols gap-8">
           <div
             class="
               shadow-2xl
               flex
               items-center
               rounded-full
-              h-[200px]
-              w-[200px]
+              h-200px
+              w-200px
               mr-5
             "
           >
             <img
               class="h-full rounded-full object-cover"
-              src="https://d1yh8vu5aa2xzd.cloudfront.net/f8112d4a-69f9-48d7-93cd-f009ae9cc5ad/images/front/about/about-tim.jpg"
+              src="/images/about/about-tim.jpg"
               alt="Tim"
             />
           </div>
@@ -53,20 +57,24 @@
           </div>
         </div>
 
-        <div class="flex mr-10">
-          <img
+        <div class="grid about-grid-cols gap-8">
+          <div
             class="
-              max-w-full
-              h-full
+              shadow-2xl
+              flex
+              items-center
               rounded-full
-              object
-              cover
+              h-200px
+              w-200px
               mr-5
-              drop-shadow-2xl
             "
-            src="https://d1yh8vu5aa2xzd.cloudfront.net/f8112d4a-69f9-48d7-93cd-f009ae9cc5ad/images/front/about/about-jarrad.jpg"
-            alt="Jarrad"
-          />
+          >
+            <img
+              class="h-full rounded-full object-cover"
+              src="/images/about/about-jarrad.jpg"
+              alt="Jarrad"
+            />
+          </div>
           <div>
             <h3 class="text-left text-4xl mb-5 font-heading font-bold">
               Jarrad Salmon
