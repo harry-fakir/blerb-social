@@ -11,7 +11,7 @@
           consequatur dignissimos mollitia.
         </p>
 
-        <p class="text-left text-lg mb-5">
+        <p class="text-left text-lg mb-20">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tempore
           voluptatem officia ducimus recusandae? Architecto inventore aperiam
           nam? Dignissimos, iusto sequi. Minus fugit laboriosam, impedit eius
@@ -19,7 +19,68 @@
         </p>
       </div>
 
-      <div class="max-w-7xl mx-auto px-5"></div>
+      <div class="max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-2">
+        <div class="grid grid-cols-[200px,1fr] gap-8">
+          <div
+            class="
+              shadow-2xl
+              flex
+              items-center
+              rounded-full
+              h-[200px]
+              w-[200px]
+              mr-5
+            "
+          >
+            <img
+              class="h-full rounded-full object-cover"
+              src="https://d1yh8vu5aa2xzd.cloudfront.net/f8112d4a-69f9-48d7-93cd-f009ae9cc5ad/images/front/about/about-tim.jpg"
+              alt="Tim"
+            />
+          </div>
+
+          <div class="">
+            <h3 class="text-left text-4xl mb-5 font-heading font-bold">
+              Tim Cronin
+            </h3>
+            <p class="text-left text-lg mb-10">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+              aperiam voluptas sequi facere aut praesentium est nisi nulla
+              expedita iure vero ab nam iste eveniet voluptates beatae, quas
+              blanditiis. Ut? Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex mr-10">
+          <img
+            class="
+              max-w-full
+              h-full
+              rounded-full
+              object
+              cover
+              mr-5
+              drop-shadow-2xl
+            "
+            src="https://d1yh8vu5aa2xzd.cloudfront.net/f8112d4a-69f9-48d7-93cd-f009ae9cc5ad/images/front/about/about-jarrad.jpg"
+            alt="Jarrad"
+          />
+          <div>
+            <h3 class="text-left text-4xl mb-5 font-heading font-bold">
+              Jarrad Salmon
+            </h3>
+            <p class="text-left text-lg mb-10">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+              aperiam voluptas sequi facere aut praesentium est nisi nulla
+              expedita iure vero ab nam iste eveniet voluptates beatae, quas
+              blanditiis. Ut? Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>

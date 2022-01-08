@@ -1,4 +1,8 @@
 module.exports = {
+  mode: 'jit',
+  purge: [
+    './src/views/*.vue',
+  ],
   content: [],
   theme: {
     extend: {
