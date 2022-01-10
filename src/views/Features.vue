@@ -97,7 +97,11 @@
       >
         <div>
           <div>
-            <img src="/images/features/connect.svg" alt="conect" />
+            <img
+              src="/images/features/connect.svg"
+              alt="conect"
+              class="mx-auto lg:mx-0"
+            />
           </div>
           <h3 class="text-left text-4xl mt-5 mb-5 font-heading font-bold">
             Connect
@@ -111,7 +115,11 @@
 
         <div>
           <div>
-            <img src="/images/features/create.svg" alt="create" />
+            <img
+              src="/images/features/create.svg"
+              alt="create"
+              class="mx-auto lg:mx-0"
+            />
           </div>
           <h3 class="text-left text-4xl mt-5 mb-5 font-heading font-bold">
             Create
@@ -125,7 +133,11 @@
 
         <div>
           <div>
-            <img src="/images/features/share.svg" alt="share" />
+            <img
+              src="/images/features/share.svg"
+              alt="share"
+              class="mx-auto lg:mx-0"
+            />
           </div>
           <h3 class="text-left text-4xl mt-5 mb-5 font-heading font-bold">
             Share
@@ -139,7 +151,11 @@
 
         <div>
           <div>
-            <img src="/images/features/schedule.svg" alt="schedule" />
+            <img
+              src="/images/features/schedule.svg"
+              alt="schedule"
+              class="mx-auto lg:mx-0"
+            />
           </div>
           <h3 class="text-left text-4xl mt-5 mb-5 font-heading font-bold">
             Schedule
@@ -153,7 +169,11 @@
 
         <div>
           <div>
-            <img src="/images/features/empower.svg" alt="empower" />
+            <img
+              src="/images/features/empower.svg"
+              alt="empower"
+              class="mx-auto lg:mx-0"
+            />
           </div>
           <h3 class="text-left text-4xl mt-5 mb-5 font-heading font-bold">
             Empower
@@ -167,7 +187,11 @@
 
         <div>
           <div>
-            <img src="/images/features/approve.svg" alt="approve" />
+            <img
+              src="/images/features/approve.svg"
+              alt="approve"
+              class="mx-auto lg:mx-0"
+            />
           </div>
           <h3 class="text-left text-4xl mt-5 mb-5 font-heading font-bold">
             Approve
@@ -181,7 +205,11 @@
 
         <div>
           <div>
-            <img src="/images/features/boost.svg" alt="boost" />
+            <img
+              src="/images/features/boost.svg"
+              alt="boost"
+              class="mx-auto lg:mx-0"
+            />
           </div>
           <h3 class="text-left text-4xl mt-5 mb-5 font-heading font-bold">
             Boost
@@ -194,7 +222,11 @@
 
         <div>
           <div>
-            <img src="/images/features/analyze.svg" alt="analyze" />
+            <img
+              src="/images/features/analyze.svg"
+              alt="analyze"
+              class="mx-auto lg:mx-0"
+            />
           </div>
           <h3 class="text-left text-4xl mt-5 mb-5 font-heading font-bold">
             Analyze
@@ -208,7 +240,11 @@
 
         <div>
           <div>
-            <img src="/images/features/reach.svg" alt="reach" />
+            <img
+              src="/images/features/reach.svg"
+              alt="reach"
+              class="mx-auto lg:mx-0"
+            />
           </div>
           <h3 class="text-left text-4xl mt-5 mb-5 font-heading font-bold">
             Reach
