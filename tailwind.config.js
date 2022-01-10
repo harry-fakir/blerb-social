@@ -14,7 +14,7 @@ module.exports = {
 
     },
     fontFamily: {
-      'sans': ['Inter', 'Arial', 'sans-serif'],
+      'p-text': ['Inter', 'Arial', 'sans-serif'],
       'heading': ['MavenPro', 'Arial', 'sans-serif']
     }
   },
