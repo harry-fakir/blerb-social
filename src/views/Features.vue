@@ -60,8 +60,22 @@
           >
             Content Pigeon combines a number of <br />
             critical systems into
-            <span class="text-black">one incredibly intuitive tool.</span>
+            <div class="purple-highlight inline-block relative">
+              <span class="relative z-20">one incredibly intuitive tool.</span>
+            </div>
           </h1>
+          <p class="text-left">
+            From a single platform, you’ll be able to
+            <strong class="text-blerb-purple"> design, schedule </strong> and
+            <strong class="text-blerb-purple">publish</strong> posts;
+            <strong class="text-blerb-purple"> build </strong> and
+            <strong class="text-blerb-purple"> share </strong> a library of
+            digital assets;
+            <strong class="text-blerb-purple"> boost </strong> content; view
+            <strong class="text-blerb-purple"> analytics</strong>; and create a
+            <strong class="text-blerb-purple"> network </strong> which links the
+            social media accounts of every branch of your organisation.
+          </p>
         </div>
       </div>
     </section>

@@ -36,3 +36,15 @@
         }
     
 }
+
+.purple-highlight::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 5px;
+    z-index: 10;
+    height: 21px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(94, 92, 194, var(--tw-bg-opacity));
+}
