@@ -1,5 +1,5 @@
 <template>
-  <div class="about bg-blerb-gray w-screen h-screen">
+  <div class="about bg-blerb-gray min-h-screen">
     <section class="bg-blerb-blue h-96 relative">
       <div class="hidden lg:block z-0">
         <img

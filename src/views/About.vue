@@ -1,5 +1,5 @@
 <template>
-  <div class="about bg-blerb-gray w-screen h-screen">
+  <div class="about bg-blerb-gray min-h-screen">
     <section class="bg-blerb-gray py-32">
       <div class="absolute right-0 top-24">
         <img src="/images/about/arrow.png" alt="arrow" class="mb-8 mr-3" />
