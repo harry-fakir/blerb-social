@@ -1,5 +1,68 @@
 <template>
-  <footer class="bg-blerb-dark-blue h-2/5 w-full text-white">
-    <div class="pb-6 md:pb-7 pt-24 md:pt-36 mb-0">footer</div>
+  <footer class="bg-blerb-dark-blue w-full text-white">
+    <div class="pb-5 md:pb-7 lg:pb-16 pt-24 md:pt-36">
+      <div class="max-w-6xl mx-auto px-5">
+        <div class="text-center mt-12 mb-8">
+          <p class="font-p-text text-3xl font-bold">
+            Ready to take control of your brand’s online presence?
+          </p>
+
+          <button
+            class="
+              bg-blerb-purple
+              hover:bg-blerb-light-blue
+              text-white
+              font-bold
+              py-2
+              px-4
+              rounded
+              mt-10
+            "
+          >
+            <a
+              class="btn btn-secondary"
+              href="https://contentpigeon.dev/request-demo"
+              >Get Started Now</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="
+          container
+          mx-auto
+          px-5
+          py-6
+          flex
+          items-center
+          justify-between
+          sm:flex-row
+          flex-col
+        "
+      >
+        <a
+          href="https://contentpigeon.dev/
+        "
+          class="mb-4 md:mb-0"
+          ><img src="/images/logo-white.svg" alt=""
+        /></a>
+
+        <p class="text-xs">
+          © Copyright 2022 Content Pigeon Ltd | All rights reserved.
+          <br />
+          <a href="">Privacy Policy </a>
+          |
+          <a href="">Terms & Conditions </a>
+        </p>
+
+        <div class="inline-flex mt-6 sm:mt-0 justify-center md:self-end">
+          <a href="#" class="mr-4"
+            ><img src="images/icon-facebook.png" alt=""
+          /></a>
+          <a href="#"><img src="images/icon-youtube.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
   </footer>
 </template>

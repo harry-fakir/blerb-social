@@ -9,7 +9,8 @@ module.exports = {
         'blerb-gray': '#f3f4f6',
         'blerb-blue': '#71B8FA',
         'blerb-purple': '#5E5CC2',
-        'blerb-dark-blue': '#1C2B45'
+        'blerb-dark-blue': '#1C2B45',
+        'blerb-light-blue': '#4DE8E8'
 
       },
 
