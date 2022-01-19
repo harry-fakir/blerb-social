@@ -20,5 +20,10 @@ module.exports = {
       'heading': ['MavenPro', 'Arial', 'sans-serif']
     }
   },
-  plugins: [],
+  plugins: [
+
+    require('@tailwindcss/aspect-ratio'),
+
+  ],
 }
+
