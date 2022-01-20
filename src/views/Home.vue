@@ -44,18 +44,21 @@
       </div>
     </section>
     <section class="bg-blerb-gray pt-28 pb-10 relative">
-      <div class="aspect-w-16 aspect-h-9 z-20 relative">
-        <iframe
-          src="https://www.youtube.com/embed/ThiCMd5kGbE"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          class="h-4/6 w-4/6 mx-auto rounded-3xl shadow-2xl -mt-96"
-        ></iframe>
+      <div class="max-w-5xl mx-auto pr-10 pl-10">
+        <!-- need to add padding to right and left side to above parent (with max-w-5xl) -->
+        <div class="z-20 aspect-w-16 aspect-h-9 -mt-96">
+          <iframe
+            src="https://www.youtube.com/embed/ThiCMd5kGbE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="rounded-3xl shadow-2xl"
+          ></iframe>
+        </div>
       </div>
 
-      <div class="-mt-96">
+      <div class="mt-10">
         <img src="images/home/ic-asterisk.svg" alt="" class="mx-auto" />
       </div>
 
@@ -87,36 +90,34 @@
       </div>
     </section>
 
-    <section>
-      <div class="bg-transparent">
+    <section class="flex items-center relative h-44 w-full justify-center">
+      <div class="bg-blerb-dark-blue absolute w-full h-full">
         <img
           src="/images/banner-2.png"
-          class="object-cover w-full h-full opacity-100"
+          class="object-cover opacity-100 h-full w-full"
           alt=""
         />
       </div>
-      <div class="z-20 -mt-36">
-        <p
-          class="
-            mb-8
-            font-heading font-bold
-            text-xl
-            md:text-5xl
-            leading-none
-            tracking-tight
-            break-words
-            text-center text-white
-          "
-        >
-          The answer? You use Content Pigeon.
-        </p>
-      </div>
+
+      <p
+        class="
+          font-heading font-bold
+          text-2xl
+          md:text-4xl
+          leading-none
+          tracking-tight
+          break-words
+          text-center text-white
+          z-20
+        "
+      >
+        The answer? You use Content Pigeon.
+      </p>
     </section>
 
     <section class="mt-36">3 col grid section with white background</section>
     <section>2 col grid section with grey background</section>
     <section>ideal for franchies and chains</section>
-    <section>brands that love content pigeon</section>
   </div>
 </template>
 
