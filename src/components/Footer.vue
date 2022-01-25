@@ -19,10 +19,8 @@
               mt-10
             "
           >
-            <a
-              class="btn btn-secondary"
-              href="https://contentpigeon.dev/request-demo"
-              >Get Started Now</a
+            <router-link to="/getstarted" class="btn btn-secondary">
+              Get Started Now</router-link
             >
           </button>
         </div>
@@ -41,12 +39,9 @@
           flex-col
         "
       >
-        <a
-          href="https://contentpigeon.dev/
-        "
-          class="mb-4 md:mb-0"
+        <router-link to="/" class="mb-4 md:mb-0"
           ><img src="/images/logo-white.svg" alt=""
-        /></a>
+        /></router-link>
 
         <p class="text-xs">
           © Copyright 2022 Content Pigeon Ltd | All rights reserved.

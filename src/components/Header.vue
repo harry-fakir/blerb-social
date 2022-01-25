@@ -1,6 +1,6 @@
 <template>
-  <nav class="bg-white shadow">
-    <div class="mx-auto container px-6 py-2 xl:py-0">
+  <nav class="bg-white z-20">
+    <div class="mx-auto container px-6 py-2 xl:py-0 max-w-5xl mt-5 z-20">
       <div class="flex items-center justify-between">
         <div class="inset-y-0 left-0 flex items-center xl:hidden">
           <div
@@ -67,7 +67,9 @@
                       <rect x="4" y="14" width="6" height="6" rx="1"></rect>
                       <rect x="14" y="14" width="6" height="6" rx="1"></rect>
                     </svg>
-                    <span class="ml-2 font-bold font-p-text">Features</span>
+                    <span class="ml-2 font-bold font-p-text">
+                      <router-link to="/features"> Features</router-link>
+                    </span>
                   </div>
                 </li>
                 <li
@@ -104,7 +106,9 @@
                         d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1"
                       ></path>
                     </svg>
-                    <span class="ml-2 font-bold font-p-text">About</span>
+                    <span class="ml-2 font-bold font-p-text">
+                      <router-link to="/about"> About</router-link></span
+                    >
                   </div>
                 </li>
                 <li
@@ -137,7 +141,9 @@
                     <polyline points="8 16 10 10 16 8 14 14 8 16"></polyline>
                     <circle cx="12" cy="12" r="9"></circle>
                   </svg>
-                  <span class="ml-2 font-bold font-p-text">Get Started</span>
+                  <span class="ml-2 font-bold font-p-text">
+                    <router-link to="/getstarted"> Get Started</router-link>
+                  </span>
                 </li>
                 <li
                   class="
@@ -171,7 +177,9 @@
                     <polyline points="17 8 21 12 17 16"></polyline>
                     <line x1="14" y1="4" x2="10" y2="20"></line>
                   </svg>
-                  <span class="ml-2 font-bold font-p-text">Login</span>
+                  <span class="ml-2 font-bold font-p-text">
+                    <router-link to="/login"> Login</router-link>
+                  </span>
                 </li>
                 <li
                   class="
@@ -243,18 +251,9 @@
           "
         >
           <div class="flex items-center">
-            <h2
-              class="
-                hidden
-                sm:block
-                text-base text-gray-700
-                font-bold font-p-text
-                leading-normal
-                pl-3
-              "
-            >
-              Content Pigeon
-            </h2>
+            <router-link to="/">
+              <img src="/images/logo.svg" alt="Logo" width="350"
+            /></router-link>
           </div>
         </div>
         <div class="flex">
@@ -277,7 +276,7 @@
               "
             >
               <span class="mr-2"> </span>
-              Features
+              <router-link to="/features"> Features</router-link>
             </a>
             <a
               href="javascript: void(0)"
@@ -297,7 +296,7 @@
               "
             >
               <span class="mr-2"> </span>
-              About
+              <router-link to="/about"> About</router-link>
             </a>
             <a
               href="javascript: void(0)"
@@ -317,7 +316,7 @@
               "
             >
               <span class="mr-2"> </span>
-              Get Started
+              <router-link to="/getstarted"> Get Started</router-link>
             </a>
             <a
               href="javascript: void(0)"
@@ -337,7 +336,7 @@
               "
             >
               <span class="mr-2"> </span>
-              Login
+              <router-link to="/login"> Login</router-link>
             </a>
           </div>
         </div>

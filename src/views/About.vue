@@ -1,7 +1,7 @@
 <template>
   <div class="about bg-blerb-gray min-h-screen">
     <section class="bg-blerb-gray py-32">
-      <div class="absolute right-0 top-24">
+      <div class="absolute right-0 top-24 hidden lg:block z-0">
         <img src="/images/about/arrow.png" alt="arrow" class="mb-8 mr-3" />
         <img src="/images/about/vector.png" alt="vector" />
       </div>
