@@ -10,6 +10,7 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.4.0",
     "@vue-hero-icons/outline": "^1.7.2",
+    "aos": "^2.3.4",
     "autoprefixer": "^9.8.8",
     "core-js": "^3.6.5",
     "install": "^0.13.0",

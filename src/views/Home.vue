@@ -2,7 +2,11 @@
   <div class="home">
     <section class="bg-white pb-96 relative">
       <div class="hidden lg:block z-0">
-        <div class="absolute top-0 left-0">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          class="absolute top-0 left-0"
+        >
           <svg
             v-vpshow.right
             width="99"
@@ -29,7 +33,11 @@
             />
           </svg>
         </div>
-        <div class="absolute bottom-80 left-0">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          class="absolute bottom-80 left-0"
+        >
           <svg
             v-vpshow.left
             width="43"
@@ -53,7 +61,11 @@
           </svg>
         </div>
 
-        <div class="absolute top-0 right-16">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          class="absolute top-0 right-16"
+        >
           <svg
             v-vpshow.left
             width="50"
@@ -69,7 +81,11 @@
           </svg>
         </div>
 
-        <div class="absolute top-20 right-0">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          class="absolute top-20 right-0"
+        >
           <svg
             v-vpshow.right
             width="78"
@@ -97,7 +113,11 @@
           </svg>
         </div>
 
-        <div class="absolute bottom-80 right-12">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          class="absolute bottom-80 right-12"
+        >
           <svg
             v-vpshow.left
             width="120"
@@ -125,7 +145,11 @@
           </svg>
         </div>
 
-        <div class="absolute top-32 left-24">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          class="absolute top-32 left-24"
+        >
           <svg
             v-vpshow.left
             width="60"
@@ -141,7 +165,7 @@
           </svg>
         </div>
       </div>
-      <div class="w-4/5 mx-auto">
+      <div data-aos="fade-up" data-aos-duration="2500" class="w-4/5 mx-auto">
         <h1
           class="
             py-6
@@ -184,7 +208,11 @@
     <section class="bg-blerb-gray pt-28 pb-10 relative">
       <div class="max-w-5xl mx-auto pr-10 pl-10">
         <!-- need to add padding to right and left side to above parent (with max-w-5xl) -->
-        <div class="z-20 aspect-w-16 aspect-h-9 -mt-96">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          class="z-20 aspect-w-16 aspect-h-9 -mt-96"
+        >
           <iframe
             src="https://www.youtube.com/embed/ThiCMd5kGbE"
             title="YouTube video player"
@@ -200,7 +228,7 @@
         <img src="images/home/ic-asterisk.svg" alt="" class="mx-auto" />
       </div>
 
-      <div class="w-4/5 mx-auto">
+      <div data-aos="fade-up" data-aos-duration="2000" class="w-4/5 mx-auto">
         <h1
           class="
             py-6
@@ -238,10 +266,11 @@
       </div>
 
       <p
+        data-aos="fade-up"
         class="
           font-heading font-bold
           text-2xl
-          md:text-4xl
+          md:text-5xl
           leading-none
           tracking-tight
           break-words
@@ -265,7 +294,7 @@
           py-5
         "
       >
-        <div class="mt-5">
+        <div data-aos="fade-up" data-aos-duration="2000" class="mt-5">
           <div>
             <img
               src="/images/home/ic-network.svg"
@@ -286,7 +315,12 @@
           </p>
         </div>
 
-        <div class="mt-0 lg:mt-5">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="750"
+          class="mt-0 lg:mt-5"
+        >
           <div>
             <img
               src="/images/home/ic-schedulingtool.svg"
@@ -306,7 +340,12 @@
           </p>
         </div>
 
-        <div class="mt-0 lg:mt-5">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="900"
+          class="mt-0 lg:mt-5"
+        >
           <div>
             <img
               src="/images/home/ic-assetlibrary.svg"
@@ -340,7 +379,7 @@
           py-5
         "
       >
-        <div>
+        <div data-aos="fade-up" data-aos-duration="2000">
           <img
             src="/images/home/features.png"
             alt="home-features"
@@ -348,7 +387,12 @@
           />
         </div>
 
-        <div class="mx-auto lg:mx-0 my-auto px-4">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          data-aos-delay="1000"
+          class="mx-auto lg:mx-0 my-auto px-4"
+        >
           <h3
             class="text-left text-4xl lg:text-5xl mb-5 font-heading font-bold"
           >
@@ -390,7 +434,12 @@
     </section>
 
     <section class="bg-white pt-10 pb-10 relative">
-      <div class="lg:px-60 px-10 pb-5">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2500"
+        data-aos-delay="1500"
+        class="lg:px-60 px-10 pb-5"
+      >
         <h3
           class="text-center text-4xl lg:text-5xl mb-5 font-heading font-bold"
         >
@@ -419,7 +468,12 @@
           px-5
         "
       >
-        <div class="bg-blerb-gray rounded px-2 py-6">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="1500"
+          class="bg-blerb-gray rounded px-2 py-6"
+        >
           <div>
             <img
               src="/images/home/ic-franchises-1.svg"
@@ -432,7 +486,12 @@
           </div>
         </div>
 
-        <div class="bg-blerb-gray rounded px-2 py-6">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="1500"
+          class="bg-blerb-gray rounded px-2 py-6"
+        >
           <div>
             <img
               src="/images/home/ic-franchises-2.svg"
@@ -445,7 +504,12 @@
           </div>
         </div>
 
-        <div class="bg-blerb-gray rounded px-2 py-6">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="1500"
+          class="bg-blerb-gray rounded px-2 py-6"
+        >
           <div>
             <img
               src="/images/home/ic-franchises-3.svg"
@@ -458,7 +522,12 @@
           </div>
         </div>
 
-        <div class="bg-blerb-gray rounded px-2 py-6">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="1500"
+          class="bg-blerb-gray rounded px-2 py-6"
+        >
           <div>
             <img
               src="/images/home/ic-franchises-4.svg"
@@ -471,7 +540,12 @@
           </div>
         </div>
 
-        <div class="bg-blerb-gray rounded px-2 py-6">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="1500"
+          class="bg-blerb-gray rounded px-2 py-6"
+        >
           <div>
             <img
               src="/images/home/ic-franchises-5.svg"
@@ -484,7 +558,12 @@
           </div>
         </div>
 
-        <div class="bg-blerb-gray rounded px-2 py-6">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="1500"
+          class="bg-blerb-gray rounded px-2 py-6"
+        >
           <div>
             <img
               src="/images/home/ic-franchises-6.svg"
@@ -497,7 +576,12 @@
           </div>
         </div>
 
-        <div class="bg-blerb-gray rounded px-2 py-6">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="1500"
+          class="bg-blerb-gray rounded px-2 py-6"
+        >
           <div>
             <img
               src="/images/home/ic-franchises-7.svg"
@@ -510,7 +594,12 @@
           </div>
         </div>
 
-        <div class="bg-blerb-gray rounded px-2 py-6">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="1500"
+          class="bg-blerb-gray rounded px-2 py-6"
+        >
           <div>
             <img
               src="/images/home/ic-franchises-8.svg"
@@ -523,7 +612,12 @@
           </div>
         </div>
 
-        <div class="bg-blerb-gray rounded px-2 py-6">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="1500"
+          class="bg-blerb-gray rounded px-2 py-6"
+        >
           <div>
             <img
               src="/images/home/ic-franchises-9.svg"
@@ -536,7 +630,12 @@
           </div>
         </div>
 
-        <div class="bg-blerb-gray rounded px-2 py-6">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2500"
+          data-aos-delay="1500"
+          class="bg-blerb-gray rounded px-2 py-6"
+        >
           <div>
             <img
               src="/images/home/ic-franchises-10.svg"

@@ -1,8 +1,13 @@
 <template>
-  <footer class="bg-blerb-dark-blue w-full text-white">
+  <footer v-show="!login" class="bg-blerb-dark-blue w-full text-white">
     <div class="pb-5 md:pb-7 lg:pb-16 pt-24 md:pt-36">
-      <div class="max-w-6xl mx-auto px-5">
-        <div class="text-center mt-12 mb-8">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-delay="500"
+        class="max-w-6xl mx-auto px-5"
+      >
+        <div class="text-center mt-8 mb-8">
           <p class="font-p-text text-3xl font-bold">
             Ready to take control of your brand’s online presence?
           </p>
@@ -61,3 +66,13 @@
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  computed: {
+    login() {
+      return this.$route.name.toLowerCase() === "login";
+    },
+  },
+};
+</script>

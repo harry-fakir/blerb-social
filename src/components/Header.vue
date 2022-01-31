@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-white z-20">
+  <nav v-show="!login" class="bg-white z-30">
     <div class="mx-auto container px-6 py-2 xl:py-0 max-w-5xl mt-5 z-20">
       <div class="flex items-center justify-between">
         <div class="inset-y-0 left-0 flex items-center xl:hidden">
@@ -32,6 +32,7 @@
                   mt-8
                   md:mt-8
                   hidden
+                  z-30
                 "
               >
                 <li
@@ -39,13 +40,15 @@
                     flex
                     xl:hidden
                     cursor-pointer
-                    text-gray-600 text-sm
+                    font-p-text
+                    text-gray-700 text-base
+                    md:text-lg
                     leading-3
                     tracking-normal
                     mt-2
                     py-2
-                    hover:text-indigo-700
-                    focus:text-indigo-700 focus:outline-none
+                    hover:text-gray-500
+                    focus:text-gray-500 focus:outline-none
                   "
                 >
                   <div class="flex items-center">
@@ -77,12 +80,15 @@
                     xl:hidden
                     flex-col
                     cursor-pointer
-                    text-gray-600 text-sm
+                    font-p-text
+                    text-gray-700 text-base
+                    md:text-lg
                     leading-3
                     tracking-normal
+                    mt-2
                     py-2
-                    hover:text-indigo-700
-                    focus:text-indigo-700 focus:outline-none
+                    hover:text-gray-500
+                    focus:text-gray-500 focus:outline-none
                     flex
                     justify-center
                   "
@@ -115,14 +121,16 @@
                   class="
                     xl:hidden
                     cursor-pointer
-                    text-gray-600 text-sm
+                    text-gray-700 text-base
+                    md:text-lg
                     leading-3
                     tracking-normal
+                    mt-2
                     py-2
-                    hover:text-indigo-700
+                    hover:text-gray-500
+                    focus:text-gray-500 focus:outline-none
                     flex
                     items-center
-                    focus:text-indigo-700 focus:outline-none
                   "
                 >
                   <svg
@@ -149,15 +157,18 @@
                   class="
                     xl:hidden
                     cursor-pointer
-                    text-gray-600 text-sm
+                    xl:hidden
+                    cursor-pointer
+                    text-gray-700 text-base
+                    md:text-lg
                     leading-3
                     tracking-normal
-                    pt-2
-                    pb-4
-                    hover:text-indigo-700
+                    mt-2
+                    py-2
+                    hover:text-gray-500
+                    focus:text-gray-500 focus:outline-none
                     flex
                     items-center
-                    focus:text-indigo-700 focus:outline-none
                   "
                 >
                   <svg
@@ -181,20 +192,6 @@
                     <router-link to="/login"> Login</router-link>
                   </span>
                 </li>
-                <li
-                  class="
-                    cursor-pointer
-                    text-gray-600 text-sm
-                    leading-3
-                    tracking-normal
-                    mt-2
-                    py-2
-                    hover:text-indigo-700
-                    flex
-                    items-center
-                    focus:text-indigo-700 focus:outline-none
-                  "
-                ></li>
               </ul>
               <svg
                 @click="MenuHandler($event, true)"
@@ -262,14 +259,17 @@
               href="javascript: void(0)"
               class="
                 flex
-                px-5
+                px-3
+                py-2
+                my-6
+                mx-5
                 items-center
-                py-6
+                font-p-text
                 text-sm
+                md:text-base
                 leading-5
                 text-gray-700
-                hover:bg-gray-100
-                focus:bg-gray-100 focus:outline-none
+                hover:text-gray-500
                 transition
                 duration-150
                 ease-in-out
@@ -282,14 +282,17 @@
               href="javascript: void(0)"
               class="
                 flex
-                px-5
+                px-3
+                py-2
+                my-6
+                mx-2
                 items-center
-                py-6
+                font-p-text
                 text-sm
+                md:text-base
                 leading-5
                 text-gray-700
-                hover:bg-gray-100
-                focus:bg-gray-100 focus:outline-none
+                hover:text-gray-500
                 transition
                 duration-150
                 ease-in-out
@@ -302,34 +305,43 @@
               href="javascript: void(0)"
               class="
                 flex
-                px-5
+                px-3
+                py-2
+                my-6
+                mx-4
+                font-bold
                 items-center
-                py-6
+                font-p-text
                 text-sm
+                md:text-base
                 leading-5
                 text-gray-700
-                hover:bg-gray-100
-                focus:bg-gray-100 focus:outline-none
+                hover:text-gray-500
                 transition
                 duration-150
                 ease-in-out
+                border-solid border-2 border-blerb-blue
+                rounded
               "
             >
-              <span class="mr-2"> </span>
+              <span class=""> </span>
               <router-link to="/getstarted"> Get Started</router-link>
             </a>
             <a
               href="javascript: void(0)"
               class="
                 flex
-                px-5
+                px-3
+                py-2
+                my-6
+                mx-2
                 items-center
-                py-6
+                font-p-text
                 text-sm
+                md:text-base
                 leading-5
                 text-gray-700
-                hover:bg-gray-100
-                focus:bg-gray-100 focus:outline-none
+                hover:text-gray-500
                 transition
                 duration-150
                 ease-in-out
@@ -353,6 +365,11 @@ export default {
       profilePhoto:
         "https://tuk-cdn.s3.amazonaws.com/assets/components/horizontal_navigation/hn_1.png",
     };
+  },
+  computed: {
+    login() {
+      return this.$route.name.toLowerCase() === "login";
+    },
   },
   methods: {
     dropdownHandler(event) {

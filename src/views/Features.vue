@@ -1,6 +1,6 @@
 <template>
   <div class="about bg-blerb-gray min-h-screen">
-    <section class="bg-blerb-blue h-96 relative">
+    <section class="bg-blerb-blue min-h-96 relative py-2">
       <div class="hidden lg:block z-0">
         <img
           src="/images/features/shape-7.svg"
@@ -58,6 +58,8 @@
               text-left
               font-heading
             "
+            data-aos="fade-up"
+            data-aos-duration="3000"
           >
             Content Pigeon combines a number of <br />
             critical systems into
@@ -65,7 +67,11 @@
               <span class="relative z-20">one incredibly intuitive tool.</span>
             </div>
           </h1>
-          <p class="text-left text-lg font-p-text">
+          <p
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            class="text-left text-lg font-p-text"
+          >
             From a single platform, you’ll be able to
             <strong class="text-blerb-purple"> design, schedule </strong> and
             <strong class="text-blerb-purple">publish</strong> posts;
@@ -93,9 +99,11 @@
           max-w-7xl
           mx-auto
           px-5
+          pt-5
+          pb-8
         "
       >
-        <div>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div>
             <img
               src="/images/features/connect.svg"
@@ -113,7 +121,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div>
             <img
               src="/images/features/create.svg"
@@ -131,7 +139,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div>
             <img
               src="/images/features/share.svg"
@@ -149,7 +157,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div>
             <img
               src="/images/features/schedule.svg"
@@ -167,7 +175,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div>
             <img
               src="/images/features/empower.svg"
@@ -185,7 +193,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div>
             <img
               src="/images/features/approve.svg"
@@ -203,7 +211,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div>
             <img
               src="/images/features/boost.svg"
@@ -220,7 +228,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div>
             <img
               src="/images/features/analyze.svg"
@@ -238,7 +246,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div>
             <img
               src="/images/features/reach.svg"
@@ -265,3 +273,17 @@ export default {
   name: "Features",
 };
 </script>
+
+<style scoped>
+.fade-enter-from {
+  opacity: 0;
+}
+
+.fade-enter-to {
+  opacity: 1;
+}
+
+.fade-enter-active {
+  transition: opacity 2s ease;
+}
+</style>
